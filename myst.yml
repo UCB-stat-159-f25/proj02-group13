@@ -1,0 +1,26 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: af9eb51c-dc9e-42b6-985a-58db38d70e82
+  title: STAT 159/259 Project 2 myST
+  # description:
+  # keywords: []
+  authors: Jose Aguilar, Arhaan Aggarwal, Brian Hwang, David Robertson
+  github: https://github.com/UCB-stat-159-f25/proj02-group13
+  toc:
+    - file: README.md
+      title: README
+    - file: nlp-P01.ipynb
+      title: NLP P01
+    - file: nlp-P02.ipynb
+      title: NLP P02
+    - file: nlp-P03.ipynb
+      title: NLP P03
+    - file: nlp-P04.ipynb
+      title: NLP P04
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
